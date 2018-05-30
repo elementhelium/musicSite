@@ -1,6 +1,9 @@
 body {
     height: 100%;
     background-image: url(https://pre00.deviantart.net/7bf2/th/pre/f/2007/052/e/7/palm_tree_dreams_by_kandiart.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: auto;
 }
 
 nav {
@@ -30,6 +33,7 @@ nav {
     margin: 0 auto;
     font-family: 'Comfortaa', cursive;
     color: lightcoral;
+    text-decoration: underline;
 }
 
 .soundcloud {
@@ -38,9 +42,8 @@ nav {
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
     font-weight: bolder;
-    margin-top: 30px;  
     -webkit-transition: color 1s;
-    transition: color 1s;  
+    transition: color 1s; 
 }
 
 .soundcloud:hover {
@@ -51,7 +54,6 @@ nav {
     width: 30px;
     height: 30px;
     margin-left: 15px;
-    position: absolute;
     border: 1px solid black;
     border-radius: 10%;
 }
@@ -75,7 +77,7 @@ nav {
 }
 
 .hoverlinks:hover {
-    border-top: gold solid;
+    border-top: lightcoral solid;
 }
 
 .main {
@@ -91,6 +93,13 @@ nav {
     width: 300px;
     height: 75%;
     float: left;
+}
+
+.boxesleftsection {
+    height: 100px;
+    width: 99.5%;
+    border: 2px solid black;
+    margin-top: 10px;
 }
 
 .bottomsection {
@@ -125,10 +134,5 @@ nav {
 }
 
 
-.boxesleftsection {
-    height: 100px;
-    width: 99.5%;
-    border: 2px solid black;
-    margin-top: 20px;
-}
+
 
