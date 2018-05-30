@@ -69,12 +69,13 @@ nav {
     -ms-transition: color, ease-in, .5s;
     -moz-transition: color, ease-in, .5s;
     -webkit-transition: color, ease-in, .5s;
-    transition: color, ease-in, 1s;
-    height: 3px;
+    transition: color, ease-in, .5s;
+    height: 2px;
 }
 
 .hoverlinks:hover {
     border-top: gold solid;
+
     
 }
 
