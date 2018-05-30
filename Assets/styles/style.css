@@ -11,6 +11,7 @@ nav {
     display: block;
     border-top: 8px solid silver;
     border-bottom: 8px solid silver;
+    
 }
 
 .boxnav {
@@ -53,3 +54,27 @@ nav {
     border: 1px solid black;
     border-radius: 10%;
 }
+
+.contacticons {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.hoverlinks {
+    -o-transition: color, ease-in, .5s;
+    -ms-transition: color, ease-in, .5s;
+    -moz-transition: color, ease-in, .5s;
+    -webkit-transition: color, ease-in, .5s;
+    transition: color, ease-in, 1s;
+    height: 3px;
+}
+
+.hoverlinks:hover {
+    border-top: gold solid;
+    
+}
+
