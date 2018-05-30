@@ -37,6 +37,7 @@ nav {
     color: black;
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
+    font-weight: bolder;
     margin-top: 30px;  
     -webkit-transition: color 1s;
     transition: color 1s;  
@@ -75,7 +76,59 @@ nav {
 
 .hoverlinks:hover {
     border-top: gold solid;
+}
 
+.main {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgba(60, 143, 211, 0.397);
+    position: relative;
+}
+
+.leftsection {
+    width: 300px;
+    height: 75%;
+    float: left;
+}
+
+.bottomsection {
+    bottom: 0;
+    border: 2px solid black;
+    width: 99.5%;
+    height: 22%;
+    position: absolute;
+}
+
+.rightbanner {
+    width: 685px;
+    height: 75%;
+    border: 2px solid black;
+    position: absolute;
+    right: 0;
+    background-image: url(https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/13087527_1687547524843722_7447961852939288444_n.jpg?_nc_cat=0&oh=2cb3a80d9d15ab7327a5878ba4bca4c8&oe=5B8CC9D4);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: auto;
+    background-position-y: 20%;
+    opacity: .7;
+    text-align: left;
+}
+
+.bannertext {
+    position: absolute;
+    bottom: 0;
+    font-family:  'Comfortaa', cursive;
+    font-size: 40px;
     
+}
+
+
+.boxesleftsection {
+    height: 100px;
+    width: 99.5%;
+    border: 2px solid black;
+    margin-top: 20px;
 }
 
