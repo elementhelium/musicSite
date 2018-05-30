@@ -1,0 +1,55 @@
+body {
+    height: 100%;
+    background-image: url(https://pre00.deviantart.net/7bf2/th/pre/f/2007/052/e/7/palm_tree_dreams_by_kandiart.jpg);
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0 0 0;
+    background-color:  rgba(60, 143, 211, 0.699);
+    display: block;
+    border-top: 8px solid silver;
+    border-bottom: 8px solid silver;
+}
+
+.boxnav {
+    width: 30%;
+    height: 30px;
+    border-right: black 2px solid;
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    
+}
+
+.navleft {
+    font-size: 30px;
+    opacity: .8;
+    margin: 0 auto;
+    font-family: 'Comfortaa', cursive;
+    color: lightcoral;
+}
+
+.soundcloud {
+    text-decoration: none;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    margin-top: 30px;  
+    -webkit-transition: color 1s;
+    transition: color 1s;  
+}
+
+.soundcloud:hover {
+    color: gold;
+}
+
+.soundcloudicon {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 10%;
+}
