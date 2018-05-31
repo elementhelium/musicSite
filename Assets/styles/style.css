@@ -33,7 +33,6 @@ nav {
     margin: 0 auto;
     font-family: 'Comfortaa', cursive;
     color: lightcoral;
-    text-decoration: underline;
 }
 
 .soundcloud {
@@ -77,7 +76,7 @@ nav {
 }
 
 .hoverlinks:hover {
-    border-top: lightcoral solid;
+    border-top: pink solid;
 }
 
 .main {
@@ -117,6 +116,34 @@ nav {
 
 }
 
+.boxesleftsection2 {
+    height: 100px;
+    width: 99.5%;
+    border: 2px solid black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIu7eV549yWX6OqnKVRchsOVpYVVnYiK0sJLvHok7xgIG1hU2k  ) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 20%;
+    position: relative;
+    text-align: center;
+    opacity: .8;
+    margin-top: 10px;
+}
+
+.boxesleftsection3 {
+    height: 100px;
+    width: 99.5%;
+    border: 2px solid black;
+    background-image: url(https://i.ytimg.com/vi/qxc3Fnw3b1s/maxresdefault.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 20%;
+    position: relative;
+    text-align: center;
+    opacity: .8;
+    margin-top: 10px;
+}
+
 .bottomsection {
     bottom: 0;
     border: 2px solid black;
@@ -128,7 +155,6 @@ nav {
 .rightbanner {
     width: 685px;
     height: 75%;
-    border: 2px solid black;
     position: absolute;
     right: 0;
     background-repeat: no-repeat;
