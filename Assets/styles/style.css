@@ -81,7 +81,7 @@ nav {
 
 .main {
     width: 1000px;
-    height: 500px;
+    height: 600px;
     margin: 0 auto;
     margin-top: 30px;
     background-color: rgba(60, 143, 211, 0.397);
@@ -146,10 +146,14 @@ nav {
 
 .bottomsection {
     bottom: 0;
-    border: 2px solid black;
+    border: black groove 3px;
     width: 99.5%;
-    height: 22%;
+    height: 30%;
     position: absolute;
+    background-image: url(http://www.belmont.wa.gov.au/PublishingImages/WEBSITE%20BANNER%20IMAGES/Website%20Banner%20Images/skateboarder%20and%20foot%20banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: .7;
 }
 
 .rightbanner {
@@ -162,18 +166,18 @@ nav {
     background-position-x: auto;
     background-position-y: 20%;
     opacity: .7;
-    text-align: left;
+    text-align: center;
 }
 
 .bannertext {
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
+    left: 10px;
     font-family:  'Comfortaa', cursive;
-    font-size: 40px;
-    margin-left: 20px;
+    font-size: 30px;
     border-top: 3px solid black;
     padding: 4px;
-    width: 652.4px;
+    width: 650px;
     height: 51px;
 }
 
@@ -233,3 +237,22 @@ nav {
     text-decoration: underline;
 }
 
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(70, 60, 211, 0.877);
+    margin-top: 10px;
+    border-top: 3px solid rgb(31, 30, 30);
+    text-align: center;
+    vertical-align: middle;
+    bottom: 0;
+    
+}
+
+.footer {
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+
+
+}
